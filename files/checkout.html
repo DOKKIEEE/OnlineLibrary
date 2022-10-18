@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Purchase</title>
+    <script src="https://kit.fontawesome.com/ac34dc9851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../index.html">Polaris</a>
+        </div>
+        <div class="menu">
+            <div class="options">
+                <a class="my-cart" href="#">My <i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="wishlist-books" href="#">My <i class="fa-solid fa-book-open"></i></a>
+                <a class="login" href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <form action="" method="">
+        <div class="checkout-form">
+            <div class="basic-info">
+                <h1>Basic Information</h1>
+                <div class="b-info">
+                    <label for="name">Full Name:</label>
+                    <input type="text" placeholder="ex. Denny White" name="name" id="name" required>
+                </div>
+                <div class="b-info">
+                    <label class="address" for="address">Address:</label>
+                    <input type="text" placeholder="ex. Paltic, Dingalan, Aurora" name="name" id="adress" required>
+                </div>
+                <div class="b-info">
+                    <label for="contact">Contact No.</label>
+                    <input type="number" placeholder="+639459770040" name="contact" id="contact" required>
+                </div>
+            </div>
+            <div class="payment-method">
+                <h1>Payment Method</h1>
+                <div class="credit">
+                    <div>
+                        <input class="payment-input" type="radio" name="payment-method" id="card" value="card">
+                        <label class="payment-label" for="card">Credit/Debit Card</label>
+                    </div>
+
+                    <div>
+                        <input class="payment-input" type="radio" name="payment-method" id="gcash" value="gcash">
+                        <label class="payment-label" for="card">GCash</label>
+                    </div>
+                    
+                    <div>
+                        <input class="payment-input" type="radio" name="payment-method" id="cash" value="cash">
+                        <label class="payment-label" for="cash">Cash On Delivery</label>
+                    </div>
+
+                </div>
+                <div class="email">
+                    <label class="payment-label" for="email">Email Address:</label>
+                    <input class="payment-input" type="text" placeholder="ex. denny@gmail.com" name="email" id="email" required>
+                </div>
+                <div class="payment-details">
+                    <h2>Payment Details</h2>
+                    <div class="bill-label">
+                        <div class="purchse">
+                            <h3>Item</h3>
+                            <h3>Shipping Fee</h3>
+                        </div>
+                        <div class="price">
+                            <h4>₱1080</h4>
+                            <h4>₱90</h4>
+                            <hr>
+                            <h5>₱1170</h5>
+                            <button class="order-btn" type="submit">Place Order!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+<footer>
+    <div class="footer">
+
+        <div class="footer-1">
+            <div class="contact-us">
+                <h2>CONTACT</h2>
+                <p>Purok Ipil-ipil</p>
+                <p> Paltic Dingalan</p>
+                <p>State: Philippines</p>
+                <p>Mobile Number: +63-945-966-0030</p>
+            </div>
+            <div class="recent-post">
+                <h2>AVAILABLE BOOKS</h2>
+                <p>To Kill A Mocking Bird</p>
+                <p>The Great Gatsby</p>
+                <p>Nineteen Eighty-Four</p>
+                <p>Adventures of Huckleberry Finn</p>
+            </div>
+            <div class="news-letter">
+                <h2>NEWSLETTER</h2>
+                <div class="sign-up">
+                    <input type="text" placeholder="Your Email Address" name="sign-up" id="sign-up">
+                    <label for="signup-btn"><button>SIGN UP</button></label>
+                </div>
+                <div class="socmed-icons">
+                    <a href="https://web.facebook.com/denny.white.5494/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/eduardo-iii-camay-2a232a237"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+            <p>© 2022 Polaris, All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</html>
